@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/cart">Cart</router-link>
+    <router-link to="/">Trang chủ</router-link> |
+    <router-link to="/cart">Giỏ hàng</router-link>
   </nav>
   <router-view/>
 </template>

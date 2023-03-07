@@ -10,7 +10,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Tai nghe Bluetooth Apple AirPods Pro 2021 Magsafe",
+    name: "Tai nghe Bluetooth Apple AirPods Pro 2021",
     price: 4,
     category: "Airpod",
     img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/w/mwp22_av2_2.jpg",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: 3,
-    name: "iPad Gen 10 10.9 inch 2022 Wifi 64GB I Chính hãng Apple Việt Nam",
+    name: "iPad Gen 10 10.9 inch 2022 Wifi 64GB",
     price: 10,
     category: "iPad",
     img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-2022-hero-pink-wifi-select.png",
@@ -43,6 +43,33 @@ const products = [
     img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/d/sdsd_1_2.jpg",
     description:
       "Robot hút bụi Ecovacs Deebot T10 Omni là sản phẩm robot hút bụi mang lại khả năng làm sạch hiệu quả. Sản phẩm Ecovacs Deebot T10 Omni được trang bị nhiều công nghệ thông minh như lập bản đồ  TrueMapping 2.0, tránh vật cản AIVI 3.0, trợ lý giọng nói YIKO AI. Đặc biệt, Ecovacs Deebot T10 Omni còn được trang bị trạm sạc thông minh với tính năng tự động đổ rác - giặt giẻ - sấy khô bằng khí nóng - khử khuẩn ion bạc.",
+  },
+  {
+    id: 6,
+    name: "OPPO Reno8 T 5G (8GB - 128GB)",
+    price: 9,
+    category: "OPPO",
+    img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/o/p/oppo-reno8t-vang1-thumb-600x600.jpg",
+    description:
+      "Dung lượng Pin điện thoại Reno8 T 5G lên tới 4800mAh cùng thông số bộ nhớ đạt 8GB RAM và 128GB ROM giúp người dùng có thể thoải mái trải nghiệm mà không cần lo về vấn đề năng lượng hay bộ nhớ lưu trữ trong quá trình sử dụng.",
+  },
+  {
+    id: 7,
+    name: "iPhone 13 128GB | Chính hãng VN/A",
+    price: 17,
+    category: "iPhone",
+    img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
+    description:
+      "Về kích thước, iPhone 13 sẽ có 4 phiên bản khác nhau và kích thước không đổi so với series iPhone 12 hiện tại. Nếu iPhone 12 có sự thay đổi trong thiết kế từ góc cạnh bo tròn (Thiết kế được duy trì từ thời iPhone 6 đến iPhone 11 Pro Max) sang thiết kế vuông vắn (đã từng có mặt trên iPhone 4 đến iPhone 5S, SE).",
+  },
+  {
+    id: 8,
+    name: "Samsung Galaxy S23 Ultra 256GB",
+    price: 26,
+    category: "Samsung",
+    img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/2/s23-ultra-xanh.png",
+    description:
+      "Samsung Galaxy S23 Ultra là điện thoại cao cấp của hãng điện thoại Samsung được ra mắt vào đầu năm 2023. Điện thoại Samsung S23 series mới này sở hữu camera độ phân giải 200MP ấn tượng cùng một khung viền vuông vức sang trọng. Cấu hình máy cũng là một điểm nổi bật với con chip Snapdragon 8 Gen 2 mạnh mẽ, bộ nhớ RAM 8GB mang lại hiệu suất xử lý vượt trội.",
   },
 ];
 

@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <ProductDescription 
-    :product="product"
-    :active="active.product_drawer"
-    v-on:close-product="closeProduct()"
+    <ProductDescription
+      :product="product"
+      :active="active.product_drawer"
+      v-on:close-product="closeProduct()"
     />
 
     <div class="product-container">
       <ProductCard
-      v-for="(product, index) in products"
-      :key="index"
-      :product="product"
-      v-on:view-product="viewProduct($event)"
+        v-for="(product, index) in products"
+        :key="index"
+        :product="product"
+        v-on:view-product="viewProduct($event)"
       />
     </div>
   </div>
@@ -20,32 +20,32 @@
 <script>
 import products from "@/data/product";
 import ProductCard from "@/components/ProductCard.vue";
-import ProductDescription from '@/components/ProductDescription.vue'
+import ProductDescription from "@/components/ProductDescription.vue";
 
 export default {
   components: {
     ProductCard,
-    ProductDescription
+    ProductDescription,
   },
   data() {
     return {
       products: products,
       product: null,
       active: {
-        product_drawer: false
-      }
+        product_drawer: false,
+      },
     };
   },
   methods: {
-    viewProduct(product){
+    viewProduct(product) {
       this.product = product;
       this.active.product_drawer = true;
       console.log(this.product);
     },
-    closeProduct(){
+    closeProduct() {
       this.active.product_drawer = false;
-    }
-  }
+    },
+  },
 };
 </script>
 

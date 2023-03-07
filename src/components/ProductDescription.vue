@@ -47,7 +47,7 @@ export default {
 </script>
 <style lang="scss">
     .desc-container{
-        width: 100%;
+        width: 25%;
         height: 100vh;
         position: fixed;
         left: 0;
@@ -62,7 +62,7 @@ export default {
         }
     }
     .drawer{
-        width: 95vw;
+        width: 25vw;
         height: 100vh;
         background-color: white;
         position: fixed;
@@ -97,6 +97,7 @@ export default {
     .product-detail{
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
 
         p.description{
@@ -113,6 +114,11 @@ export default {
                 margin: 0 5px 50px 5px;
                 cursor: pointer;
             }
+        }
+
+        img{
+          width: 200px;
+          height: 200px;
         }
     }
 </style>
